@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "538575445999",
+    "firebase_url": "https://geo-app1-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "geo-app1",
+    "storage_bucket": "geo-app1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538575445999:android:62fd928f8068077d02a01a",
+        "android_client_info": {
+          "package_name": "com.example.tracking_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "538575445999-s98b5vnlfuthve7ofqlkrok2fikud97i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCr55Q4cfWAqdaHPoZeWAAcoa2quXhInY8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "538575445999-s98b5vnlfuthve7ofqlkrok2fikud97i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

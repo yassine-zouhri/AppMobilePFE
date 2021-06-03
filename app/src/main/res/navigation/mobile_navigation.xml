@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/TODOFragment">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.tracking_app.ui.userdetails.UserDetailFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_userdetail" />
+
+    <fragment
+        android:id="@+id/nav_events"
+        android:name="com.example.tracking_app.ui.Events.EventsFragment"
+        android:label="@string/menu_events"
+        tools:layout="@layout/fragment_events" >
+        <action
+            android:id="@+id/action_nav_events_to_addEventFragment"
+            app:destination="@id/addEventFragment" />
+        <action
+            android:id="@+id/action_nav_events_to_eventDetailsFragment"
+            app:destination="@id/eventDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_map"
+        android:name="com.example.tracking_app.ui.map.MapFragment"
+        android:label="fragment_map"
+        tools:layout="@layout/fragment_map" />
+    <fragment
+        android:id="@+id/addEventFragment"
+        android:name="com.example.tracking_app.ui.addEvent.AddEventFragment"
+        android:label="add_event_fragment"
+        tools:layout="@layout/add_event_fragment" >
+        <action
+            android:id="@+id/action_addEventFragment_to_nav_events"
+            app:destination="@id/nav_events" />
+    </fragment>
+    <fragment
+        android:id="@+id/eventDetailsFragment"
+        android:name="com.example.tracking_app.ui.EventDetail.EventDetailsFragment"
+        android:label="event_details_fragment"
+        tools:layout="@layout/event_details_fragment" >
+        <action
+            android:id="@+id/action_eventDetailsFragment_to_nav_events"
+            app:destination="@id/nav_events" />
+        <argument
+            android:name="MyEventPosition"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="MyEventID"
+            app:argType="string"
+            android:defaultValue='""' />
+    </fragment>
+    <fragment
+        android:id="@+id/TODOFragment"
+        android:name="com.example.tracking_app.ui.todoList.TODOFragment"
+        android:label="t_o_d_o_fragment"
+        tools:layout="@layout/t_o_d_o_fragment" >
+        <action
+            android:id="@+id/action_TODOFragment_to_eventDetailsFragment"
+            app:destination="@id/eventDetailsFragment" />
+    </fragment>
+</navigation>

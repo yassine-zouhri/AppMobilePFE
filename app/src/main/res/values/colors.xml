@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#081635</color>
+    <color name="colorPrimaryDark">#0f2047</color>
+    <color name="colorAccent">#1976d2</color>
+
+    <color name="red">#c90000</color>
+    <color name="orange">#FB8C00</color>
+    <color name="green">#00897B</color>
+    <color name="gray">#E2FFFFFF</color>
+
+    <!--colors for modern ui-->
+    <color name="whiteTextColor">#fff</color>
+    <color name="primaryTextColor">#2661FA</color>
+    <color name="loginBkColor">#f0f0f0</color>
+
+    <!--colros for card-->
+    <color name="whiteCardColor">#fff</color>
+
+
+
+    <color name="address">#2F7092</color>
+    <color name="followers">#0D5D98</color>
+    <color name="headings">#A1D6F4</color>
+    <color name="solidCircle">#AAFFFFFF</color>
+    <color name="circleBorder">#50FFFFFF</color>
+    <color name="gradEnd">#67EFC8</color>
+    <color name="gradStart">#63C9FF</color>
+    <color name="followersBg">#65DCE5</color>
+    <color name="followingBg">#49BEFF</color>
+    <color name="grey">#E5E5E5</color>
+
+    <color name ="colorTextIcon">#FFFFFF</color>
+    <color name ="colorTextPrimary">#212121</color>
+    <color name ="colorTextSecondary">#757575</color>
+    <color name ="colorTextSecondary1">#E1DEDE</color>
+    <color name ="colorRatingActif">#FDA14F</color>
+    <color name ="colorRatingInactif">#AAFFFFFF</color>
+    <color name ="colorBackgroud">#EEEEEE</color>
+    <color name ="gree">#32DCD6D6</color>
+</resources>
